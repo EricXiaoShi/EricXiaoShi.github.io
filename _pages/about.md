@@ -26,51 +26,55 @@ Selected Publications (\* co-first author)
 <!-- Paper 1 -->
 <div class="publication-card">
   <h4><em>Knowledge Diversion for Efficient Morphology Control and Policy Transfer</em></h4>
-  <p>F Feng\*, **R Shi\***, Y Xie, J Shen, J Wang, X Geng</p>
+  <p><strong>F Feng</strong><sup>*</sup>, <strong>R Shi</strong><sup>*</sup>, Y Xie, J Shen, J Wang, X Geng</p>
   <p><strong>preprint</strong></p>
   <div class="pub-links">
-    <a href="https://arxiv.org/pdf/2512.09796" target="_blank">PDF</a> |
+    <a href="https://arxiv.org/pdf/2512.09796" target="_blank">📄 PDF</a>
   </div>
 </div>
 
 <!-- Paper 2 -->
 <div class="publication-card">
   <h4><em>FAD: Frequency Adaptation and Diversion for Cross-domain Few-shot Learning</em></h4>
-  <p>**R Shi**, F Feng, Y Xie, J Wang, X Geng</p>
+  <p><strong>R Shi</strong>, F Feng, Y Xie, J Wang, X Geng</p>
   <p><strong>preprint</strong></p>
   <div class="pub-links">
-    <a href="https://arxiv.org/pdf/2505.08349" target="_blank">PDF</a> |
+    <a href="https://arxiv.org/pdf/2505.08349" target="_blank">📄 PDF</a>
   </div>
 </div>
 
 <!-- Paper 3 -->
 <div class="publication-card">
   <h4><em>DivControl: Knowledge Diversion for Controllable Image Generation</em></h4>
-  <p>Y Xie, F Feng, **R Shi**, J Wang, Y Rui, X Geng</p>
+  <p>Y Xie, F Feng, <strong>R Shi</strong>, J Wang, Y Rui, X Geng</p>
   <p><strong>In: AAAI'26, 🏆Oral</strong></p>
   <div class="pub-links">
-    <a href="https://arxiv.org/pdf/2507.23620" target="_blank">PDF</a> |
+    <a href="https://arxiv.org/pdf/2507.23620" target="_blank">📄 PDF</a>
   </div>
 </div>
 
 <!-- Paper 4 -->
 <div class="publication-card">
   <h4><em>ECO: Evolving Core Knowledge for Efficient Transfer</em></h4>
-  <p>F Feng, Y Xie, **R Shi**, J Shen, J Wang, X Geng</p>
+  <p>F Feng, Y Xie, <strong>R Shi</strong>, J Shen, J Wang, X Geng</p>
   <p><strong>In: NeurIPS'25</strong></p>
   <div class="pub-links">
-    <a href="https://arxiv.org/pdf/2505.08349" target="_blank">PDF</a> |
+    <a href="https://arxiv.org/pdf/2505.08349" target="_blank">📄 PDF</a>
   </div>
 </div>
 
 <!-- Paper 5 -->
 <div class="publication-card">
   <h4><em>KIND: Knowledge integration and diversion for training decomposable models</em></h4>
-  <p>Y Xie, F Feng, **R Shi**, J Wang, Y Rui, X Geng</p>
+  <p>Y Xie, F Feng, <strong>R Shi</strong>, J Wang, Y Rui, X Geng</p>
   <p><strong>In: ICML'25</strong></p>
   <div class="pub-links">
-    <a href="https://arxiv.org/pdf/2408.07337" target="_blank">PDF</a> |
+    <a href="https://arxiv.org/pdf/2408.07337" target="_blank">📄 PDF</a>
   </div>
 </div>
 
+<p style="margin-top: 12px; font-size:0.95em; color:#555;">
+  For the complete list of publications, please visit my 
+  <a href="https://scholar.google.com/citations?hl=zh-CN&user=exgZbE4AAAAJ" target="_blank">Google Scholar profile</a>.
+</p>
 
