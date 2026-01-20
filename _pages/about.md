@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I am **Ruixiao Shi**, a first-year Master’s student at the [PALM Lab](https://palm.seu.edu.cn/), School of Computer Science and Technology, Southeast University, supervised by [Prof. Xin Geng](https://palm.seu.edu.cn/xgeng/)). I received my B.S. degree in Artificial Intelligence from Southeast University in 2025.
+Hi, I am **Ruixiao Shi**, a first-year Master’s student at the [PALM Lab](https://palm.seu.edu.cn/), School of Computer Science and Technology, Southeast University, supervised by [Prof. Xin Geng](https://palm.seu.edu.cn/xgeng/). I received my B.S. degree in Artificial Intelligence from Southeast University in 2025.
 
 <p>
   I am actively seeking <span style="color:red; font-weight:bold;">Ph.D. positions</span> in artificial intelligence, with intended enrollment in Fall 2028. 
