@@ -3,31 +3,38 @@
   background-color: #f9f9f9 !important;
   color: #111 !important;
   border-radius: 12px;
-  padding: 18px;
+  padding: 16px;       /* 适度内边距 */
   margin-bottom: 20px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
   transition: all 0.3s ease;
-  font-size: 1rem !important; /* 正文基准大小 */
-  line-height: 1.5;
+  font-size: 1rem !important; 
+  line-height: 1.4;    /* 缩小整体行高 */
 }
 
 /* ---------- 标题 ---------- */
 .publication-card .pub-title {
-  font-size: 1.4rem !important;  /* 加大标题 */
-  line-height: 1.4 !important;
-  margin-bottom: 12px;
+  font-size: 1.4rem !important;
+  line-height: 1.2 !important; /* 标题行间紧凑 */
+  margin-bottom: 8px;           /* 标题与正文间距适度 */
   color: #111 !important;
+}
+
+/* 正文作者列表 */
+.publication-card p {
+  font-size: 0.95rem !important;
+  line-height: 1.35 !important; /* 正文行间稍紧凑 */
+  margin: 0 0 6px 0;             /* 段落底部间距小一些 */
 }
 
 /* 上标 */
 .publication-card sup {
-  font-size: 0.9rem !important;
+  font-size: 0.85rem !important;
   color: #ff9900 !important;
 }
 
-/* 链接 */
+/* PDF 链接 */
 .pub-links a {
-  font-size: 1rem !important;
+  font-size: 0.95rem !important;
   color: #0077cc !important;
   font-weight: bold;
   text-decoration: none;
@@ -40,59 +47,8 @@
 
 /* 注释 */
 .pub-note {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
+  line-height: 1.2;
   color: #555;
-  margin: 0 0 8px 0;
-}
-
-/* 邮箱链接 */
-.email-link {
-  color: #0077cc;
-  font-weight: bold;
-}
-
-/* PhD 红色声明 */
-.phd-declaration {
-  color: red;
-  font-weight: bold;
-  font-size: 1.1rem;
-  margin-bottom: 12px;
-}
-
-/* 外层容器 */
-.card, .card-container {
-  background-color: #f9f9f9 !important;
-  transition: all 0.3s ease;
-}
-
-/* ---------- 夜间模式 ---------- */
-html[data-theme="dark"] .publication-card,
-html[data-theme="dark"] .card,
-html[data-theme="dark"] .card-container {
-  background-color: #1e1e1e !important;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.6) !important;
-  transition: all 0.3s ease;
-}
-
-html[data-theme="dark"] .publication-card .pub-title {
-  color: #f0f0f0 !important;
-  font-size: 1.4rem !important;
-}
-
-html[data-theme="dark"] .publication-card p,
-html[data-theme="dark"] .pub-note {
-  color: #ccc !important;
-}
-
-html[data-theme="dark"] .publication-card sup {
-  color: #ffd24d !important;
-}
-
-html[data-theme="dark"] .pub-links a,
-html[data-theme="dark"] .email-link {
-  color: #4ea1ff !important;
-}
-
-html[data-theme="dark"] .phd-declaration {
-  color: #ff6666 !important;
+  margin: 0 0 6px 0;
 }
