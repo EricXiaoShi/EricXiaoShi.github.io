@@ -13,8 +13,8 @@
 
 /* 标题 */
 .publication-card .pub-title {
-  font-size: 1.4rem !important;
-  line-height: 1.2 !important;
+  font-size: 1 rem !important;
+  line-height: 1 !important;
   margin-top: 0 !important;      /* 取消默认顶部空白 */
   margin-bottom: 8px;            /* 标题与正文间距 */
   color: #111 !important;
@@ -23,8 +23,8 @@
 
 /* 正文作者列表 */
 .publication-card p {
-  font-size: 0.95rem !important;
-  line-height: 1.35 !important; /* 正文行间稍紧凑 */
+  font-size: 1rem !important;
+  line-height: 1 !important; /* 正文行间稍紧凑 */
   margin: 0 0 6px 0;             /* 段落底部间距小一些 */
 }
 
