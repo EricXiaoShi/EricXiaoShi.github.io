@@ -1,42 +1,33 @@
 /* ---------- Publication Card ---------- */
 .publication-card {
   background-color: #f9f9f9 !important;
-  color: #111 !important;
+  color: #111 !important;               /* 正文颜色 */
   border-radius: 12px;
-  padding: 16px;       /* 适度内边距 */
+  padding: 18px;
   margin-bottom: 20px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
   transition: all 0.3s ease;
-  font-size: 1rem !important; 
-  line-height: 1.4;    /* 缩小整体行高 */
+  font-size: 1rem !important;           /* 正文基准大小 */
+  line-height: 1.5;
 }
 
-/* 标题 */
+/* ---------- 标题 ---------- */
 .publication-card .pub-title {
-  font-size: 1.2 rem !important;
-  line-height: 1.2 !important;
-  margin-top: 0 !important;      /* 取消默认顶部空白 */
-  margin-bottom: 8px;            /* 标题与正文间距 */
+  font-size: 1.25rem !important;        /* 调整为适中大小 */
+  line-height: 1.35 !important;
+  margin-bottom: 12px;
   color: #111 !important;
 }
 
-
-/* 正文作者列表 */
-.publication-card p {
-  font-size: 1rem !important;
-  line-height: 1 !important; /* 正文行间稍紧凑 */
-  margin: 0 0 6px 0;             /* 段落底部间距小一些 */
-}
-
-/* 上标 */
+/* 上标，与正文颜色一致 */
 .publication-card sup {
-  font-size: 1rem !important;
-  color: #111 !important;
+  font-size: 0.9rem !important;
+  color: inherit !important;            /* 继承正文颜色 */
 }
 
-/* PDF 链接 */
+/* 链接 */
 .pub-links a {
-  font-size: 0.95rem !important;
+  font-size: 1rem !important;
   color: #0077cc !important;
   font-weight: bold;
   text-decoration: none;
@@ -49,8 +40,65 @@
 
 /* 注释 */
 .pub-note {
-  font-size: 0.9rem;
-  line-height: 1.2;
+  font-size: 0.95rem;
   color: #555;
-  margin: 0 0 6px 0;
+  margin: 0 0 8px 0;
+}
+
+/* 邮箱链接 */
+.email-link {
+  color: #0077cc;
+  font-weight: bold;
+}
+
+/* PhD 红色声明 */
+.phd-declaration {
+  color: red;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+}
+
+/* 外层容器 */
+.card, .card-container {
+  background-color: #f9f9f9 !important;
+  transition: all 0.3s ease;
+}
+
+/* ---------- 夜间模式 ---------- */
+html[data-theme="dark"] .publication-card,
+html[data-theme="dark"] .card,
+html[data-theme="dark"] .card-container {
+  background-color: #1e1e1e !important;   /* 卡片背景 */
+  box-shadow: 0 2px 10px rgba(0,0,0,0.6) !important;
+  transition: all 0.3s ease;
+}
+
+/* 夜间模式标题 */
+html[data-theme="dark"] .publication-card .pub-title {
+  color: #f0f0f0 !important;
+  font-size: 1.25rem !important;
+  line-height: 1.35 !important;
+}
+
+/* 夜间模式正文 */
+html[data-theme="dark"] .publication-card p,
+html[data-theme="dark"] .pub-note {
+  color: #ccc !important;
+}
+
+/* 夜间模式上标 */
+html[data-theme="dark"] .publication-card sup {
+  color: inherit !important;   /* 与正文颜色一致 */
+}
+
+/* 夜间模式链接 */
+html[data-theme="dark"] .pub-links a,
+html[data-theme="dark"] .email-link {
+  color: #4ea1ff !important;
+}
+
+/* 夜间模式 PhD 声明 */
+html[data-theme="dark"] .phd-declaration {
+  color: #ff6666 !important;
 }
