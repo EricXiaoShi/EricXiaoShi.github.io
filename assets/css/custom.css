@@ -1,16 +1,10 @@
-.publications-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
-  margin-top: 20px;
-}
-
+/* ---------- Card 样式 ---------- */
 .publication-card {
-  background: #f9f9f9;
+  background: #f9f9f9;       /* 浅色模式背景 */
   border-radius: 12px;
   padding: 16px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition: transform 0.2s, box-shadow 0.2s, background 0.2s, color 0.2s;
 }
 
 .publication-card:hover {
@@ -26,7 +20,7 @@
 .publication-card p {
   margin: 0 0 12px 0;
   font-size: 0.95em;
-  color: #555;
+  color: #555; /* 浅色模式字体 */
 }
 
 .pub-links a {
@@ -38,4 +32,24 @@
 
 .pub-links a:hover {
   text-decoration: underline;
+}
+
+/* ---------- 夜间模式 ---------- */
+@media (prefers-color-scheme: dark) {
+  .publication-card {
+    background: #1e1e1e;   /* 深色背景 */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.6);
+  }
+
+  .publication-card h4 {
+    color: #f0f0f0;       /* 标题浅色 */
+  }
+
+  .publication-card p {
+    color: #cccccc;       /* 正文浅灰色 */
+  }
+
+  .pub-links a {
+    color: #4ea1ff;       /* 链接颜色调整，更适合暗背景 */
+  }
 }
