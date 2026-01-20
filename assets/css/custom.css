@@ -1,47 +1,61 @@
 /* ---------- 默认浅色模式 ---------- */
 .publication-card {
-  background: #f9f9f9;
-  color: #111;
+  background-color: #f9f9f9 !important; /* 背景 */
+  color: #111 !important;               /* 正文 */
   border-radius: 12px;
   padding: 16px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
   transition: all 0.3s;
 }
 
 .publication-card h4 {
-  color: #111;
+  color: #111 !important;
 }
 
 .publication-card p {
-  color: #555;
+  color: #555 !important;
 }
 
 .publication-card sup {
-  color: #ff9900;
+  color: #ff9900 !important;
 }
 
 .pub-links a {
-  color: #0077cc;
+  color: #0077cc !important;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.pub-links a:hover {
+  text-decoration: underline;
+}
+
+/* 支持可能存在的外层容器 */
+.card, .card-container {
+  background-color: #f9f9f9 !important;
 }
 
 /* ---------- 夜间模式 (支持模板切换按钮) ---------- */
-html[data-theme="dark"] .publication-card {
-  background: #1e1e1e;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.6);
+html[data-theme="dark"] .publication-card,
+html[data-theme="dark"] .card,
+html[data-theme="dark"] .card-container {
+  background-color: #1e1e1e !important;   /* 卡片背景 */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.6) !important; /* 阴影加深 */
+  transition: all 0.3s;
 }
 
 html[data-theme="dark"] .publication-card h4 {
-  color: #f0f0f0;
+  color: #f0f0f0 !important; /* 标题颜色 */
 }
 
 html[data-theme="dark"] .publication-card p {
-  color: #ccc;
+  color: #ccc !important;     /* 正文颜色 */
 }
 
 html[data-theme="dark"] .publication-card sup {
-  color: #ffd24d;
+  color: #ffd24d !important;  /* 上标颜色 */
 }
 
 html[data-theme="dark"] .pub-links a {
-  color: #4ea1ff;
+  color: #4ea1ff !important;  /* 链接颜色 */
 }
