@@ -73,8 +73,6 @@ Selected Publications (\* co-first author)
   </div>
 </div>
 
-<p class="pub-note">
-  For the complete list of publications, please visit my 
-  <a href="https://scholar.google.com/citations?hl=zh-CN&user=exgZbE4AAAAJ" target="_blank">Google Scholar profile</a>.
-</p>
+For the complete list of publications, please visit my <a href="https://scholar.google.com/citations?hl=zh-CN&user=exgZbE4AAAAJ" target="_blank">Google Scholar profile</a>.
+
 
