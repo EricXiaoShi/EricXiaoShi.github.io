@@ -26,7 +26,7 @@ Selected Publications (\* co-first author)
 <!-- Paper 1 -->
 <div class="publication-card">
   <h4><em>Knowledge Diversion for Efficient Morphology Control and Policy Transfer</em></h4>
-  <p><strong>F Feng</strong><sup>*</sup>, <strong>R Shi</strong><sup>*</sup>, Y Xie, J Shen, J Wang, X Geng</p>
+  <p>F Feng<sup>*</sup>, <strong>R Shi<sup>*</sup></strong>, Y Xie, J Shen, J Wang, X Geng</p>
   <p><strong>preprint</strong></p>
   <div class="pub-links">
     <a href="https://arxiv.org/pdf/2512.09796" target="_blank">📄 PDF</a>
