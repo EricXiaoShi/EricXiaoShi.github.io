@@ -11,9 +11,7 @@ Hi, I am **Ruixiao Shi**, a first-year Master’s student at the [PALM Lab](http
 
 <p class="phd-declaration">
 I am actively seeking Ph.D. positions in artificial intelligence, with intended enrollment in Fall 2028.
-</p>
-
-<p>If you are interested in my research or collaboration, please feel free to contact me at <a href="mailto:eric_xiao@seu.edu.cn" class="email-link">eric_xiao@seu.edu.cn</a>.</p>
+</p><p>If you are interested in my research or collaboration, please feel free to contact me at <a href="mailto:eric_xiao@seu.edu.cn" class="email-link">eric_xiao@seu.edu.cn</a>.</p>
 
 Research Interest
 ---
@@ -23,10 +21,9 @@ Research Interest
 
 Selected Publications (* co-first author)
 ---
-
 <!-- Paper 1 -->
 <div class="publication-card">
-  <h4><em>Knowledge Diversion for Efficient Morphology Control and Policy Transfer</em></h4>
+  <h4 class="pub-title"><em>Knowledge Diversion for Efficient Morphology Control and Policy Transfer</em></h4>
   <p>F Feng<sup>*</sup>, <strong>R Shi<sup>*</sup></strong>, Y Xie, J Shen, J Wang, X Geng</p>
   <p class="pub-note"><strong>preprint</strong></p>
   <div class="pub-links">
@@ -36,7 +33,7 @@ Selected Publications (* co-first author)
 
 <!-- Paper 2 -->
 <div class="publication-card">
-  <h4><em>FAD: Frequency Adaptation and Diversion for Cross-domain Few-shot Learning</em></h4>
+  <h4 class="pub-title"><em>FAD: Frequency Adaptation and Diversion for Cross-domain Few-shot Learning</em></h4>
   <p><strong>R Shi</strong>, F Feng, Y Xie, J Wang, X Geng</p>
   <p class="pub-note"><strong>preprint</strong></p>
   <div class="pub-links">
@@ -46,7 +43,7 @@ Selected Publications (* co-first author)
 
 <!-- Paper 3 -->
 <div class="publication-card">
-  <h4><em>DivControl: Knowledge Diversion for Controllable Image Generation</em></h4>
+  <h4 class="pub-title"><em>DivControl: Knowledge Diversion for Controllable Image Generation</em></h4>
   <p>Y Xie, F Feng, <strong>R Shi</strong>, J Wang, Y Rui, X Geng</p>
   <p class="pub-note"><strong>In: AAAI'26, 🏆Oral</strong></p>
   <div class="pub-links">
@@ -56,7 +53,7 @@ Selected Publications (* co-first author)
 
 <!-- Paper 4 -->
 <div class="publication-card">
-  <h4><em>ECO: Evolving Core Knowledge for Efficient Transfer</em></h4>
+  <h4 class="pub-title"><em>ECO: Evolving Core Knowledge for Efficient Transfer</em></h4>
   <p>F Feng, Y Xie, <strong>R Shi</strong>, J Shen, J Wang, X Geng</p>
   <p class="pub-note"><strong>In: NeurIPS'25</strong></p>
   <div class="pub-links">
@@ -66,7 +63,7 @@ Selected Publications (* co-first author)
 
 <!-- Paper 5 -->
 <div class="publication-card">
-  <h4><em>KIND: Knowledge integration and diversion for training decomposable models</em></h4>
+  <h4 class="pub-title"><em>KIND: Knowledge integration and diversion for training decomposable models</em></h4>
   <p>Y Xie, F Feng, <strong>R Shi</strong>, J Wang, Y Rui, X Geng</p>
   <p class="pub-note"><strong>In: ICML'25</strong></p>
   <div class="pub-links">
