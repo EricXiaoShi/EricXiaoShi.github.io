@@ -11,13 +11,15 @@
   line-height: 1.4;    /* 缩小整体行高 */
 }
 
-/* ---------- 标题 ---------- */
+/* 标题 */
 .publication-card .pub-title {
   font-size: 1.4rem !important;
-  line-height: 1.2 !important; /* 标题行间紧凑 */
-  margin-bottom: 8px;           /* 标题与正文间距适度 */
+  line-height: 1.2 !important;
+  margin-top: 0 !important;      /* 取消默认顶部空白 */
+  margin-bottom: 8px;            /* 标题与正文间距 */
   color: #111 !important;
 }
+
 
 /* 正文作者列表 */
 .publication-card p {
