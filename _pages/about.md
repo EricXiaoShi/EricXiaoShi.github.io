@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Homepage of Ruixiao Shi(史瑞潇)"
+title: "Homepage of Ruixiao Shi"
 author_profile: true
 redirect_from: 
   - /about/
@@ -12,7 +12,7 @@ Hi, I am **Ruixiao Shi**, a first-year Master’s student at the **[PALM Lab](ht
 <span style="color:red; font-weight:bold;">
 I am actively seeking Ph.D. positions with intended enrollment in Fall 2028. 
 </span>
-If you are interested in my experience, please feel free to contact me at eric_xiao@seu.edu.cn.
+If you are interested in my experience, please feel free to contact me at [eric_xiao@seu.edu.cn](mailto:eric_xiao@seu.edu.cn).
 
 Research Interest
 ---
