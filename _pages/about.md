@@ -7,8 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I am **Ruixiao Shi**, a first-year Master’s student at the **[PALM Lab](https://palm.seu.edu.cn/)**, School of Computer Science and Technology, **Southeast University**, supervised by supervised by **[Prof. Xin Geng](https://palm.seu.edu.cn/xgeng/))**..  
-I received my **B.S. degree in Artificial Intelligence** from Southeast University.
+Hi, I am **Ruixiao Shi**, a first-year Master’s student at the **[PALM Lab](https://palm.seu.edu.cn/)**, School of Computer Science and Technology, **Southeast University**, supervised by supervised by **[Prof. Xin Geng](https://palm.seu.edu.cn/xgeng/))**. I received my **B.S. degree in Artificial Intelligence** from Southeast University.
 
 Research Interest
 ---
