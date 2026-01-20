@@ -1,6 +1,6 @@
 /* ---------- Card 样式 ---------- */
 .publication-card {
-  background: #f9f9f9;       /* 浅色模式背景 */
+  background: #f9f9f9;       /* 浅色背景 */
   border-radius: 12px;
   padding: 16px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -15,12 +15,17 @@
 .publication-card h4 {
   margin: 0 0 8px 0;
   font-size: 1.1em;
+  color: #111; /* 浅色模式标题 */
 }
 
 .publication-card p {
   margin: 0 0 12px 0;
   font-size: 0.95em;
-  color: #555; /* 浅色模式字体 */
+  color: #555; /* 浅色模式正文 */
+}
+
+.publication-card sup {
+  color: #ff9900; /* 上标颜色 */
 }
 
 .pub-links a {
@@ -42,14 +47,22 @@
   }
 
   .publication-card h4 {
-    color: #f0f0f0;       /* 标题浅色 */
+    color: #f0f0f0;       /* 深色模式标题 */
   }
 
   .publication-card p {
-    color: #cccccc;       /* 正文浅灰色 */
+    color: #ccc;           /* 深色模式正文 */
+  }
+
+  .publication-card sup {
+    color: #ffd24d;        /* 上标在暗色模式可见 */
   }
 
   .pub-links a {
-    color: #4ea1ff;       /* 链接颜色调整，更适合暗背景 */
+    color: #4ea1ff;       /* 夜间模式链接颜色 */
+  }
+
+  .pub-links a:hover {
+    text-decoration: underline;
   }
 }
