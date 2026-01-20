@@ -65,7 +65,7 @@ For the complete list of publications, please visit my <a href="https://scholar.
       <p class="pub-note">In: AAAI'26 <span class="award-tag">🏆 Oral</span></p>
       <div class="pub-links">
         <a href="https://arxiv.org/pdf/2507.23620" target="_blank">📄 PDF</a>
-        <a href="#">🔗 Project</a> <a href="#">💡 Demo</a>
+        <!-- <a href="#">🔗 Project</a> <a href="#">💡 Demo</a> -->
       </div>
     </div>
   </div>
