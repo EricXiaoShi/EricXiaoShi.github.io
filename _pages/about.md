@@ -24,7 +24,7 @@ For the complete list of publications, please visit my <a href="https://scholar.
 <div class="publication-card">
   <div class="pub-content">
     <div class="pub-image">
-      <img src="assets/images/paper_thumb_1.png" alt="Knowledge Diversion for Efficient Morphology Control and Policy Transfer Teaser" onerror="this.src='https://via.placeholder.com/200x120?text=Paper+Figure+1'">
+      <img src="images/paper_thumb_1.png" alt="Knowledge Diversion for Efficient Morphology Control and Policy Transfer Teaser" onerror="this.src='https://via.placeholder.com/200x120?text=Paper+Figure+1'">
     </div>
     <div class="pub-text">
       <h4 class="pub-title">Knowledge Diversion for Efficient Morphology Control and Policy Transfer</h4>
@@ -32,7 +32,7 @@ For the complete list of publications, please visit my <a href="https://scholar.
       <p class="pub-note">Preprint</p>
       <div class="pub-links">
         <a href="https://arxiv.org/pdf/2512.09796" target="_blank">📄 PDF</a>
-        <a href="#">💻 Code</a>
+        <!-- <a href="#">💻 Code</a> -->
       </div>
     </div>
   </div>
@@ -41,7 +41,7 @@ For the complete list of publications, please visit my <a href="https://scholar.
 <div class="publication-card">
   <div class="pub-content">
     <div class="pub-image">
-      <img src="assets/images/paper_thumb_2.png" alt="FAD: Frequency Adaptation and Diversion for Cross-domain Few-shot Learning Teaser" onerror="this.src='https://via.placeholder.com/200x120?text=Paper+Figure+2'">
+      <img src="images/paper_thumb_2.png" alt="FAD: Frequency Adaptation and Diversion for Cross-domain Few-shot Learning Teaser" onerror="this.src='https://via.placeholder.com/200x120?text=Paper+Figure+2'">
     </div>
     <div class="pub-text">
       <h4 class="pub-title">FAD: Frequency Adaptation and Diversion for Cross-domain Few-shot Learning</h4>
@@ -57,7 +57,7 @@ For the complete list of publications, please visit my <a href="https://scholar.
 <div class="publication-card">
   <div class="pub-content">
     <div class="pub-image">
-      <img src="assets/images/paper_thumb_3.png" alt="DivControl: Knowledge Diversion for Controllable Image Generation Teaser" onerror="this.src='https://via.placeholder.com/200x120?text=Paper+Figure+3'">
+      <img src="images/paper_thumb_3.png" alt="DivControl: Knowledge Diversion for Controllable Image Generation Teaser" onerror="this.src='https://via.placeholder.com/200x120?text=Paper+Figure+3'">
     </div>
     <div class="pub-text">
       <h4 class="pub-title">DivControl: Knowledge Diversion for Controllable Image Generation</h4>
@@ -74,7 +74,7 @@ For the complete list of publications, please visit my <a href="https://scholar.
 <div class="publication-card">
   <div class="pub-content">
     <div class="pub-image">
-      <img src="assets/images/paper_thumb_4.png" alt="ECO: Evolving Core Knowledge for Efficient Transfer Teaser" onerror="this.src='https://via.placeholder.com/200x120?text=Paper+Figure+4'">
+      <img src="images/paper_thumb_4.png" alt="ECO: Evolving Core Knowledge for Efficient Transfer Teaser" onerror="this.src='https://via.placeholder.com/200x120?text=Paper+Figure+4'">
     </div>
     <div class="pub-text">
       <h4 class="pub-title">ECO: Evolving Core Knowledge for Efficient Transfer</h4>
@@ -90,7 +90,7 @@ For the complete list of publications, please visit my <a href="https://scholar.
 <div class="publication-card">
   <div class="pub-content">
     <div class="pub-image">
-      <img src="assets/images/paper_thumb_5.png" alt="KIND: Knowledge integration and diversion for training decomposable models Teaser" onerror="this.src='https://via.placeholder.com/200x120?text=Paper+Figure+5'">
+      <img src="images/paper_thumb_5.png" alt="KIND: Knowledge integration and diversion for training decomposable models Teaser" onerror="this.src='https://via.placeholder.com/200x120?text=Paper+Figure+5'">
     </div>
     <div class="pub-text">
       <h4 class="pub-title">KIND: Knowledge integration and diversion for training decomposable models</h4>
