@@ -13,8 +13,8 @@
 
 /* 标题 */
 .publication-card .pub-title {
-  font-size: 1 rem !important;
-  line-height: 1 !important;
+  font-size: 1.2 rem !important;
+  line-height: 1.2 !important;
   margin-top: 0 !important;      /* 取消默认顶部空白 */
   margin-bottom: 8px;            /* 标题与正文间距 */
   color: #111 !important;
