@@ -1,11 +1,18 @@
-/* ---------- Publication Card 容器 ---------- */
+/* =========================================
+   Publication Card Styles
+   ========================================= */
+
+/* ---------- 卡片容器 ---------- */
 .publication-card {
   background-color: #ffffff !important;
   border: 1px solid #eef0f2;
   border-radius: 12px;
-  /* 调整内边距：上下16px，左右20px，缩小顶端空隙 */
-  padding: 16px 22px !important; 
+  /* 内边距：上下16px，左右20px */
+  padding: 16px 20px !important; 
   margin-bottom: 20px;
+  max-width: 900px; /* 限制卡片最大宽度，防止在大屏幕上内容过散 */
+  margin-left: auto; /* 居中显示卡片 */
+  margin-right: auto;
   box-shadow: 0 2px 4px rgba(0,0,0,0.04) !important;
   transition: all 0.3s ease;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -16,16 +23,46 @@
   border-color: #d1d9e0;
 }
 
+/* ---------- Flexbox 布局容器：图片和文字左右对齐 ---------- */
+.pub-content {
+  display: flex;
+  gap: 20px; /* 图片和文字之间的间距 */
+  align-items: flex-start; /* 顶部对齐 */
+}
+
+/* ---------- 左侧图片样式 ---------- */
+.pub-image {
+  flex-shrink: 0; /* 防止图片被压缩 */
+  width: 200px; /* 缩略图宽度 */
+  height: 120px; /* 固定高度，保持一致性 */
+  overflow: hidden; /* 隐藏超出部分 */
+  border-radius: 8px;
+  border: 1px solid #eee;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.pub-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 裁剪图片以填充容器，保持比例 */
+  display: block; /* 移除图片底部默认间隙 */
+}
+
+/* ---------- 右侧文字内容 ---------- */
+.pub-text {
+  flex-grow: 1; /* 占据剩余所有空间 */
+}
+
 /* ---------- 标题 (解决顶端间距过大) ---------- */
 .publication-card .pub-title {
-  /* 关键：强制设置顶部 margin 为 0，消除自带间距 */
-  margin-top: 0 !important; 
+  margin-top: 0 !important; /* 关键：强制设置顶部 margin 为 0 */
   margin-bottom: 8px !important;
-  font-size: 1.35rem !important; /* 稍微缩小一点，避免太突兀 */
+  font-size: 1.3rem !important; /* 调整字号以适应布局 */
   font-weight: 700 !important;
   line-height: 1.25 !important;
   color: #111 !important;
-  font-style: normal !important; /* 确保标题不是斜体 */
+  font-style: normal !important;
 }
 
 /* ---------- 作者列表 ---------- */
@@ -44,7 +81,7 @@
   font-size: 0.95rem !important;
   color: #666 !important;
   margin: 0 0 12px 0 !important;
-  font-style: italic !important; /* 核心修改：会议使用斜体 */
+  font-style: italic !important;
 }
 
 /* 奖项标签 (保持正体以突出) */
@@ -53,23 +90,32 @@
   font-weight: bold;
   color: #d9534f;
   margin-left: 5px;
+  background-color: #ffe8e6; /* 增加一个浅色背景 */
+  padding: 2px 7px;
+  border-radius: 4px;
+  font-size: 0.85rem;
 }
 
 /* ---------- 链接按钮 ---------- */
 .pub-links {
   display: flex;
-  gap: 10px;
+  flex-wrap: wrap; /* 允许链接换行 */
+  gap: 8px; /* 链接之间间距更紧凑 */
+  margin-top: 10px; /* 调整与上方内容的间距 */
 }
 
 .pub-links a {
+  display: inline-flex; /* 保持图标和文字对齐 */
+  align-items: center;
   font-size: 0.85rem !important;
   color: #0077cc !important;
   text-decoration: none !important;
-  padding: 4px 12px;
+  padding: 4px 10px; /* 稍微缩小按钮 */
   background: #f1f8ff;
   border-radius: 6px;
   font-weight: 600;
   transition: 0.2s;
+  white-space: nowrap; /* 防止按钮内文字换行 */
 }
 
 .pub-links a:hover {
@@ -77,18 +123,66 @@
   color: #fff !important;
 }
 
-/* ---------- 夜间模式微调 ---------- */
+/* =========================================
+   Responsive Design (响应式设计)
+   ========================================= */
+
+@media (max-width: 768px) {
+  .pub-content {
+    flex-direction: column; /* 小屏幕上图片和文字垂直堆叠 */
+    gap: 15px;
+  }
+  .pub-image {
+    width: 100%; /* 图片宽度撑满 */
+    height: auto; /* 高度自适应 */
+    max-height: 180px; /* 限制最大高度，防止图片过高 */
+  }
+  .pub-image img {
+    object-fit: contain; /* 包含整个图片，可能有留白 */
+  }
+  .publication-card {
+    padding: 15px !important; /* 手机端内边距更小 */
+  }
+  .publication-card .pub-title {
+    font-size: 1.2rem !important; /* 手机端标题更小 */
+  }
+}
+
+/* =========================================
+   Dark Mode (夜间模式)
+   ========================================= */
 html[data-theme="dark"] .publication-card {
   background-color: #1a1a1a !important;
   border-color: #333;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3) !important;
 }
 html[data-theme="dark"] .publication-card .pub-title {
   color: #eee !important;
 }
+html[data-theme="dark"] .publication-card .pub-authors {
+  color: #bbb !important;
+}
 html[data-theme="dark"] .pub-note {
   color: #aaa !important;
 }
+html[data-theme="dark"] .publication-card strong {
+  color: #fff;
+}
+html[data-theme="dark"] .publication-card sup {
+  color: #ffaa33 !important;
+}
+
+html[data-theme="dark"] .award-tag {
+  background-color: #4a1a1a;
+  color: #ff6666;
+}
+
 html[data-theme="dark"] .pub-links a {
   background: #252d38;
   color: #4ea1ff !important;
+}
+
+html[data-theme="dark"] .pub-links a:hover {
+  background: #4ea1ff;
+  color: #1a1a1a !important;
 }
