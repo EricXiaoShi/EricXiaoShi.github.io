@@ -23,10 +23,10 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "image1.png"
   name             : "Ruixiao Shi; 史瑞潇"
   pronouns         : # example: "she/her"  
-  bio              : "Master Student"
+  bio              : "A first-year master's student from SEU"
   location         : "Nanjing, China"
   employer         : "Southeast University"
   uri              : # URL
