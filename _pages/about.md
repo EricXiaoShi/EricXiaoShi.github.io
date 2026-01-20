@@ -19,47 +19,46 @@ Research Interest
 
 Selected Publications (* co-first author)
 ---
-<!-- Paper 1 -->
 <div class="publication-card">
-  <h4 class="pub-title"><em>Knowledge Diversion for Efficient Morphology Control and Policy Transfer</em></h4>
-  <p>F Feng<sup>*</sup>, <strong>R Shi<sup>*</sup></strong>, Y Xie, J Shen, J Wang, X Geng</p>
-  <p class="pub-note"><strong>preprint</strong></p>
+  <h4 class="pub-title">Knowledge Diversion for Efficient Morphology Control and Policy Transfer</h4>
+  <p class="pub-authors">F Feng<sup>*</sup>, <strong>R Shi<sup>*</sup></strong>, Y Xie, J Shen, J Wang, X Geng</p>
+  <p class="pub-venue">Preprint</p>
   <div class="pub-links">
     <a href="https://arxiv.org/pdf/2512.09796" target="_blank">📄 PDF</a>
   </div>
 </div>
-<!-- Paper 2 -->
+
 <div class="publication-card">
-  <h4 class="pub-title"><em>FAD: Frequency Adaptation and Diversion for Cross-domain Few-shot Learning</em></h4>
-  <p><strong>R Shi</strong>, F Feng, Y Xie, J Wang, X Geng</p>
-  <p class="pub-note"><strong>preprint</strong></p>
+  <h4 class="pub-title">FAD: Frequency Adaptation and Diversion for Cross-domain Few-shot Learning</h4>
+  <p class="pub-authors"><strong>R Shi</strong>, F Feng, Y Xie, J Wang, X Geng</p>
+  <p class="pub-venue">Preprint</p>
   <div class="pub-links">
     <a href="https://arxiv.org/pdf/2505.08349" target="_blank">📄 PDF</a>
   </div>
 </div>
-<!-- Paper 3 -->
+
 <div class="publication-card">
-  <h4 class="pub-title"><em>DivControl: Knowledge Diversion for Controllable Image Generation</em></h4>
-  <p>Y Xie, F Feng, <strong>R Shi</strong>, J Wang, Y Rui, X Geng</p>
-  <p class="pub-note"><strong>In: AAAI'26, 🏆Oral</strong></p>
+  <h4 class="pub-title">DivControl: Knowledge Diversion for Controllable Image Generation</h4>
+  <p class="pub-authors">Y Xie, F Feng, <strong>R Shi</strong>, J Wang, Y Rui, X Geng</p>
+  <p class="pub-venue">In: AAAI'26 <span class="award-tag">🏆 Oral</span></p>
   <div class="pub-links">
     <a href="https://arxiv.org/pdf/2507.23620" target="_blank">📄 PDF</a>
   </div>
 </div>
-<!-- Paper 4 -->
+
 <div class="publication-card">
-  <h4 class="pub-title"><em>ECO: Evolving Core Knowledge for Efficient Transfer</em></h4>
-  <p>F Feng, Y Xie, <strong>R Shi</strong>, J Shen, J Wang, X Geng</p>
-  <p class="pub-note"><strong>In: NeurIPS'25</strong></p>
+  <h4 class="pub-title">ECO: Evolving Core Knowledge for Efficient Transfer</h4>
+  <p class="pub-authors">F Feng, Y Xie, <strong>R Shi</strong>, J Shen, J Wang, X Geng</p>
+  <p class="pub-venue">In: NeurIPS'25</p>
   <div class="pub-links">
     <a href="https://arxiv.org/pdf/2505.08349" target="_blank">📄 PDF</a>
   </div>
 </div>
-<!-- Paper 5 -->
+
 <div class="publication-card">
-  <h4 class="pub-title"><em>KIND: Knowledge integration and diversion for training decomposable models</em></h4>
-  <p>Y Xie, F Feng, <strong>R Shi</strong>, J Wang, Y Rui, X Geng</p>
-  <p class="pub-note"><strong>In: ICML'25</strong></p>
+  <h4 class="pub-title">KIND: Knowledge integration and diversion for training decomposable models</h4>
+  <p class="pub-authors">Y Xie, F Feng, <strong>R Shi</strong>, J Wang, Y Rui, X Geng</p>
+  <p class="pub-venue">In: ICML'25</p>
   <div class="pub-links">
     <a href="https://arxiv.org/pdf/2408.07337" target="_blank">📄 PDF</a>
   </div>
