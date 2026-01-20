@@ -11,7 +11,9 @@ Hi, I am **Ruixiao Shi**, a first-year Master’s student at the [PALM Lab](http
 
 <p class="phd-declaration">
 I am actively seeking Ph.D. positions in artificial intelligence, with intended enrollment in Fall 2028.
-</p><p>If you are interested in my research or collaboration, please feel free to contact me at <a href="mailto:eric_xiao@seu.edu.cn" class="email-link">eric_xiao@seu.edu.cn</a>.</p>
+</p>
+
+<p>If you are interested in my research or collaboration, please feel free to contact me at <a href="mailto:eric_xiao@seu.edu.cn" class="email-link">eric_xiao@seu.edu.cn</a>.</p>
 
 Research Interest
 ---
