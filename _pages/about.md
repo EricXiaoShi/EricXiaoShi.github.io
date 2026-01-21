@@ -10,13 +10,13 @@ redirect_from:
 Hi, I am **Ruixiao Shi**, a first-year Master’s student at [PALM Lab](https://palm.seu.edu.cn/), School of Computer Science and Engineering, Southeast University, supervised by [Prof. Xin Geng](https://palm.seu.edu.cn/xgeng/). I received my B.S. degree in Artificial Intelligence from Southeast University in 2025.
 
 <p>
-  I am actively seeking <span style="color:red; font-weight:bold;">Ph.D. positions</span> in artificial intelligence, with intended enrollment in Fall 2028. 
+  I am actively seeking a <span style="color:red; font-weight:bold;">Ph.D. position</span> in artificial intelligence, with intended enrollment in Fall 2028. 
   If you are interested in my research or collaboration, please feel free to contact me at 
   <a href="mailto:eric_xiao@seu.edu.cn" class="email-link">eric_xiao@seu.edu.cn</a>.
 </p>
 
 
-Research Interest
+Research Interests
 ---
 **Agent**: RL-based and LLM-based Agent, Embodied Agent, Creative Agent
 
