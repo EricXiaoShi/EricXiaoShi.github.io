@@ -98,7 +98,7 @@ For the complete list of publications, please visit my <a href="https://scholar.
       <img src="images/paper_thumb_5.png" alt="KIND: Knowledge Integration and Diversion for Training Decomposable Models Teaser" onerror="this.src='https://via.placeholder.com/200x120?text=Paper+Figure+5'">
     </div>
     <div class="pub-text">
-      <h4 class="pub-title">KIND: Knowledge integration and diversion for training decomposable models</h4>
+      <h4 class="pub-title">KIND: Knowledge Integration and Diversion for Training Decomposable Models</h4>
       <p class="pub-authors">Y Xie, F Feng, <strong>R Shi</strong>, J Wang, Y Rui, X Geng</p>
       <p class="pub-note">In: ICML'25</p>
       <div class="pub-links">
