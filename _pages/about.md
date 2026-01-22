@@ -95,7 +95,7 @@ For the complete list of publications, please visit my <a href="https://scholar.
 <div class="publication-card">
   <div class="pub-content">
     <div class="pub-image">
-      <img src="images/paper_thumb_5.png" alt="KIND: Knowledge integration and diversion for training decomposable models Teaser" onerror="this.src='https://via.placeholder.com/200x120?text=Paper+Figure+5'">
+      <img src="images/paper_thumb_5.png" alt="KIND: Knowledge Integration and Diversion for Training Decomposable Models Teaser" onerror="this.src='https://via.placeholder.com/200x120?text=Paper+Figure+5'">
     </div>
     <div class="pub-text">
       <h4 class="pub-title">KIND: Knowledge integration and diversion for training decomposable models</h4>
@@ -115,7 +115,7 @@ Awards
     <strong>FaHeng: A Trustworthy and Traceable Domain-Specific Large Language Model for Law</strong> — <strong>First Prize (National Level)</strong>, “Challenge Cup” National College Students’ Academic Science and Technology Competition, 2025.
   </li>
   <li>
-    <strong>On-Device Large Language Model for In-Vehicle Voice Interaction Based on Learngene Technology</strong> — <strong>Bronze Award (National Level)</strong>, China International College Students'Innovation Competition (CICSIC, "Internet+"), 2025.
+    <strong>On-Device Large Language Model for In-Vehicle Voice Interaction Based on Learngene Technology</strong> — <strong>Bronze Award (National Level)</strong>, China International College Students' Innovation Competition (CICSIC, "Internet+"), 2025.
   </li>
   <li>
     <strong>Outstanding Undergraduate Thesis Award</strong>, Southeast University, 2025.
