@@ -107,3 +107,28 @@ For the complete list of publications, please visit my <a href="https://scholar.
     </div>
   </div>
 </div>
+
+Awards
+---
+<ul>
+  <li>
+    <strong>FaHeng: A Trustworthy and Traceable Domain-Specific Large Language Model for Law</strong> — First Prize (National Level), “Challenge Cup” National College Students’ Academic Science and Technology Competition, 2025.
+  </li>
+  <li>
+    <strong>On-Device Large Language Model for In-Vehicle Voice Interaction Based on Learngene Technology</strong> — Bronze Award (National Level), China International College Students'Innovation Competition (CICSIC, "Internet+"), 2025.
+  </li>
+  <li>
+    Outstanding Undergraduate Thesis Award, Southeast University, 2025.
+  </li>
+</ul>
+
+Education
+---
+**M.S. in Computer Science and Technology**  
+Southeast University, China  
+2025 – Present  
+Advisor: Prof. Xin Geng  
+
+**B.S. in Artificial Intelligence**  
+Southeast University, China  
+2021 – 2025
