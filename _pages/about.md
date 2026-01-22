@@ -112,7 +112,7 @@ Awards
 ---
 <ul>
   <li>
-    <strong>FaHeng: A Trustworthy and Traceable Domain-Specific Large Language Model for Law</strong> — <strong>First Prize (National Level)</strong>, “Challenge Cup” National College Students’ Academic Science and Technology Competition, 2025.
+    <strong>FaHeng: A Trustworthy and Traceable Domain-Specific Large Language Model for Law</strong> — <strong>First Prize (National Level)</strong>, The “Challenge Cup” National College Students' Extracurricular Academic Science and Technology Contest, 2025.
   </li>
   <li>
     <strong>On-Device Large Language Model for In-Vehicle Voice Interaction Based on Learngene Technology</strong> — <strong>Bronze Award (National Level)</strong>, China International College Students' Innovation Competition (CICSIC, "Internet+"), 2025.
