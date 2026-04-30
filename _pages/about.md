@@ -34,7 +34,7 @@ For the complete list of publications, please visit my <a href="https://scholar.
     <div class="pub-text">
       <h4 class="pub-title">Knowledge Diversion for Efficient Morphology Control and Policy Transfer</h4>
       <p class="pub-authors">F Feng<sup>*</sup>, <strong>R Shi<sup>*</sup></strong>, Y Xie, J Shen, J Wang, X Geng</p>
-      <p class="pub-note">Preprint</p>
+      <p class="pub-note">In: ICML'26</p>
       <div class="pub-links">
         <a href="https://arxiv.org/pdf/2512.09796" target="_blank">📄 PDF</a>
         <!-- <a href="#">💻 Code</a> -->
