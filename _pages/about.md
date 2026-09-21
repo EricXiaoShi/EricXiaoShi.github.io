@@ -18,9 +18,9 @@ Hi, I am **Ruixiao Shi**, a Master’s student at [PALM Lab](https://palm.seu.ed
 
 Research Interests
 ---
-**Agent**: RL-based and LLM-based Agent, Embodied Agent, Creative Agent
+**Agent**: RL-based Agent, Creative Agent, Agent Application
 
-**Machine Learning**: Transfer Learning, Learngene
+**Machine Learning**: Transfer Learning
 
 Selected Publications (* co-first author)
 ---
