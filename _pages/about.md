@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I am **Ruixiao Shi**, a first-year Master’s student at [PALM Lab](https://palm.seu.edu.cn/), School of Computer Science and Engineering, Southeast University, supervised by [Prof. Xin Geng](https://palm.seu.edu.cn/xgeng/). I received my B.S. degree in Artificial Intelligence from Southeast University in 2025.
+Hi, I am **Ruixiao Shi**, a Master’s student at [PALM Lab](https://palm.seu.edu.cn/), School of Computer Science and Engineering, Southeast University, supervised by [Prof. Xin Geng](https://palm.seu.edu.cn/xgeng/). I received my B.S. degree in Artificial Intelligence from Southeast University in 2025.
 
 <p>
   I am actively seeking a <span style="color:red; font-weight:bold;">Ph.D. position</span> in artificial intelligence, with intended enrollment in Fall 2028. 
@@ -43,7 +43,7 @@ For the complete list of publications, please visit my <a href="https://scholar.
   </div>
 </div>
 
-<div class="publication-card">
+<!-- <div class="publication-card">
   <div class="pub-content">
     <div class="pub-image">
       <img src="images/paper_thumb_2.png" alt="FAD: Frequency Adaptation and Diversion for Cross-domain Few-shot Learning Teaser" onerror="this.src='https://via.placeholder.com/200x120?text=Paper+Figure+2'">
@@ -57,7 +57,7 @@ For the complete list of publications, please visit my <a href="https://scholar.
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 <div class="publication-card">
   <div class="pub-content">
